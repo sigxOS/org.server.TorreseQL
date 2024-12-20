@@ -1,14 +1,14 @@
 package it.naples.TorreseQL.states;
 
-import java.util.Arrays;
-
 import it.naples.TorreseQL.Keywords;
-import it.naples.TorreseQL.model.iDontKnow;
 import it.naples.TorreseQL.model.QueryInfo;
 import it.naples.TorreseQL.model.QueryInfo.QueryType;
+import it.naples.TorreseQL.model.iDontKnow;
 import it.naples.TorreseQL.states.query.OptionalState;
 import it.naples.TorreseQL.states.query.SelectState;
 import it.naples.TorreseQL.states.query.UpdateState;
+
+import java.util.Arrays;
 
 public class InitialState extends AbstractState {
 	private final int index = 0;
@@ -31,7 +31,7 @@ public class InitialState extends AbstractState {
 					queryInfo::setTableName,
 					firstPart -> new TokenState(
 							firstPart,
-							Keywords.SET_KEYWORD,
+							Keywords.SET,
 							secondPart -> new ConsumerState(
 									secondPart,
 									secondPart::addColumnName,

@@ -66,7 +66,7 @@ public class Keywords {
 
 	public final static String VALUES = "CHEST";
 
-	public final static String SET_KEYWORD = "APPARAMM";
+	public final static String SET = "APPARAMM";
 	
 	public final static List<String> OPERATORS = Arrays.asList(
 			">",
