@@ -1,9 +1,3 @@
-# Torrese Query Language
-
-Ecco una versione ulteriormente perfezionata del file Markdown. Ho aggiunto dettagli estetici e funzionali per renderlo più accattivante, professionale e chiaro, includendo una migliore separazione visiva, un linguaggio raffinato e miglioramenti alla formattazione.
-
----
-
 # TorreseQL
 
 ![TorreseQL Logo](https://via.placeholder.com/300x100?text=TorreseQL)
@@ -16,7 +10,7 @@ Ecco una versione ulteriormente perfezionata del file Markdown. Ho aggiunto dett
 
 Puoi utilizzare TorreseQL in due modalità principali:
 
-### 🛠 **Come Libreria Java**
+### **Come Libreria Java**
 
 1. **Scarica** l'ultima versione del file JAR dalla [pagina release](#).
 2. **Importa** il JAR nel tuo progetto Java insieme al driver del database (es. MySQL, PostgreSQL).
@@ -27,14 +21,14 @@ Se incontri problemi, TorreseQL lancia un'eccezione dedicata:
 iDontKnow();
 ```
 
-### 🖥 **Come Client Standalone**
+### **Come Client Standalone**
 
 1. **Scarica** il client standalone dal repository ufficiale.
 2. **Avvia** il client con il comando:
    ```bash
    java -cp TorreseQL:<JDBC> org.server.TorreseQL.TorreseShell
    ```
-3. Connettiti al database con la stringa JDBC e inizia a scrivere le tue query in puro TorreseQL! 🎉
+3. Connettiti al database con la stringa JDBC e inizia a scrivere le tue query in puro TorreseQL! 
 
 ---
 
@@ -42,7 +36,7 @@ iDontKnow();
 
 Ecco una tabella con tutte le keyword disponibili, per passare facilmente da SQL standard al dialetto torrese.
 
-### 🌟 **Parole Chiave di Base**
+### **Parole Chiave di Base**
 
 | **TorreseQL**  | **SQL Standard** | **Descrizione**                  |
 |----------------|------------------|----------------------------------|
@@ -61,7 +55,7 @@ Ecco una tabella con tutte le keyword disponibili, per passare facilmente da SQL
 
 ---
 
-### 🔧 **Parole Chiave Avanzate**
+### **Parole Chiave Avanzate**
 
 | **TorreseQL**      | **SQL Standard**  | **Descrizione**                 |
 |--------------------|-------------------|---------------------------------|
@@ -92,7 +86,7 @@ TorreseQL include tutti i principali operatori logici e di confronto:
 
 ## **Esempi Pratici di Query**
 
-### 📌 Recupero Dati (SELECT)
+### Recupero Dati (SELECT)
 
 **TorreseQL**:
 ```tql
@@ -106,7 +100,7 @@ SELECT * FROM utenti WHERE eta > 18 AND citta = 'Napoli';
 
 ---
 
-### 📌 Inserimento Dati (INSERT)
+### Inserimento Dati (INSERT)
 
 **TorreseQL**:
 ```tql
@@ -120,7 +114,7 @@ INSERT INTO utenti (nome, eta) VALUES ('Mario', 25);
 
 ---
 
-### 📌 Aggiornamento Dati (UPDATE)
+### Aggiornamento Dati (UPDATE)
 
 **TorreseQL**:
 ```tql
@@ -134,7 +128,7 @@ UPDATE utenti SET eta = 30 WHERE nome = 'Luigi';
 
 ---
 
-### 📌 Eliminazione Dati (DELETE)
+### Eliminazione Dati (DELETE)
 
 **TorreseQL**:
 ```tql
@@ -180,9 +174,9 @@ TorreseQL supporta pienamente le transazioni ACID con comandi intuitivi:
 
 ## **Contatti**
 
-📧 Email: [Alessio](mailto:alessio.attilio@aleat.it) <br />
-🌐 Sito web: [aleat.it/blog/torrese-ql](#) <br />
-📖 Documentazione completa: [Documentazione](aleat.it/blog/torrese-ql#docs) <br />
+Email: [Alessio](mailto:alessio.attilio@aleat.it) <br />
+Sito web: [aleat.it/blog/torrese-ql](#) <br />
+Documentazione completa: [Documentazione](aleat.it/blog/torrese-ql#docs) <br />
 
 ---
 
